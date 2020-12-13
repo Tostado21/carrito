@@ -30,7 +30,7 @@ $(document).ready(function() {
             url: url,
             data: "idp=" + idp,
             success: function(data, textStatus, jqXHR) {
-                alert("Registro Eliminado!");
+                
             }
         });
     }
